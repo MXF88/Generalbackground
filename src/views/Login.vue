@@ -1,25 +1,5 @@
 <template>
   <div class="login-wrap">
-    <!-- 粒子效果 -->
-    <!-- <vue-particles
-          style="height:100%"
-          color="#777777"
-          :particleOpacity="0.7"
-          :particlesNumber="80"
-          shapeType="circle"
-          :particleSize="4"
-          linesColor="#dedede"
-          :linesWidth="1"
-          :lineLinked="true"
-          :lineOpacity="0.4"
-          :linesDistance="150"
-          :moveSpeed="3"
-          :hoverEffect="true"
-          hoverMode="repulse"
-          :clickEffect="true"
-          clickMode="repulse"
-      >
-      </vue-particles> -->
     <div class="ms-login">
       <div class="ms-title">后台管理系统</div>
       <el-form :model="formModel" ref="login" label-width="0px" class="ms-content">
